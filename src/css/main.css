@@ -395,8 +395,8 @@ body.outlook p {
 body, .body {
   background-color: #FFFFFF !important; }
 
-.bolded {
-  font-weight: bold; }
+.template-label {
+  font-size: 13px; }
 
 /*  Media Queries */
 @media only screen and (max-width: 600px) {
