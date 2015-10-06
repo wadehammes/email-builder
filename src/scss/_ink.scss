@@ -297,7 +297,7 @@ img.center {
 /* Panels */
 
 .panel {
-  background: #f2f2f2;
+  background: $gray-light;
   border: 1px solid #d9d9d9;
   padding: 10px !important;
 }
@@ -311,17 +311,18 @@ img.center {
 }
 
 body, table.body, h1, h2, h3, h4, h5, h6, p {
-  color: #e5e5e5;
+  color: $gray-dark;
   font-family: "Arial", sans-serif;
   font-weight: normal;
   padding:0;
   margin: 0;
   text-align: left;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
   word-break: normal;
+  font-weight: bold;
 }
 
 /* Outlook First */
