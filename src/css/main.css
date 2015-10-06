@@ -1,3 +1,6 @@
+/*==============================
+=            Colors            =
+==============================*/
 #outlook a {
   padding: 0; }
 
@@ -393,6 +396,9 @@ h1, h2, h3, h4, h5, h6 {
 body.outlook p {
   display: inline !important; }
 
+/*==================================
+=            Layout CSS            =
+==================================*/
 body, .body {
   background-color: #FFFFFF !important; }
 
@@ -402,7 +408,9 @@ body, .body {
 .text-small {
   font-size: 10px; }
 
-/*  Media Queries */
+/*=====================================
+=            Media Queries            =
+=====================================*/
 @media only screen and (max-width: 600px) {
   table[class="body"] img {
     width: auto !important;
