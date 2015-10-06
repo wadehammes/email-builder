@@ -399,6 +399,9 @@ body, .body {
 .template-label {
   font-size: 13px; }
 
+.text-small {
+  font-size: 10px; }
+
 /*  Media Queries */
 @media only screen and (max-width: 600px) {
   table[class="body"] img {
@@ -479,11 +482,10 @@ body, .body {
   table[class="body"] table.columns td.expander {
     width: 1px !important; }
   table[class="body"] .right-text-pad,
-  table[class="body"] .text-pad-right {
-    padding-left: 10px !important; }
+  table[class="body"] .text-pad-right,
   table[class="body"] .left-text-pad,
   table[class="body"] .text-pad-left {
-    padding-right: 10px !important; }
+    padding: 0 !important; }
   table[class="body"] .hide-for-small,
   table[class="body"] .show-for-desktop {
     display: none !important; }
