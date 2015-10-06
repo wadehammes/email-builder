@@ -424,9 +424,6 @@ body.outlook p {
 body, .body {
   background-color: #FFFFFF !important; }
 
-.template-label {
-  font-size: 13px; }
-
 .text-small {
   font-size: 10px; }
 
@@ -522,7 +519,7 @@ body, .body {
   table[class="body"] .text-pad-right,
   table[class="body"] .left-text-pad,
   table[class="body"] .text-pad-left {
-    padding: 0 !important; }
+    padding: 0; }
   table[class="body"] .hide-for-small,
   table[class="body"] .show-for-desktop {
     display: none !important; }
@@ -533,4 +530,8 @@ body, .body {
     text-align: center !important;
     margin: 0 auto; }
     .mobile-center h1, .mobile-center h2, .mobile-center h3, .mobile-center h4, .mobile-center h5, .mobile-center h6, .mobile-center p, .mobile-center span, .mobile-center a {
-      text-align: center !important; } }
+      text-align: center !important; }
+  .mobile-pad-right {
+    padding-right: 5px !important; }
+  .mobile-pad-left {
+    padding-left: 5px !important; } }
