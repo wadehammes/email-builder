@@ -1,19 +1,15 @@
 /*==================================
 =            Layout CSS            =
 ==================================*/
-body, .body {
-  background-color: #FFFFFF !important;
-}
-
 .text-small {
   font-size: 10px;
 }
 
 .masthead {
-  background-color: #236093;
+  background-color: $blue;
   padding: 5px 0 0 0;
 }
 
 .link {
-  color: #236093;
+  color: $blue;
 }
