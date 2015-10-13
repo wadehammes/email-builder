@@ -1,7 +1,14 @@
+/*==============================
+=            Colors            =
+==============================*/
 #outlook a {
   padding: 0; }
 
+.body {
+  background-color: #FFFFFF !important; }
+
 body {
+  background-color: #FFFFFF !important;
   width: 100% !important;
   min-width: 100%;
   -webkit-text-size-adjust: 100%;
@@ -44,7 +51,9 @@ a img {
 
 table {
   border-spacing: 0;
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  -premailer-cellpadding: 0;
+  -premailer-cellspacing: 0; }
 
 td {
   word-break: break-word;
@@ -99,40 +108,52 @@ table.container td.last {
   padding-right: 0px; }
 
 table.one {
-  width: 30px; }
+  width: 30px;
+  -premailer-width: 30px; }
 
 table.two {
-  width: 80px; }
+  width: 80px;
+  -premailer-width: 80px; }
 
 table.three {
-  width: 130px; }
+  width: 130px;
+  -premailer-width: 130px; }
 
 table.four {
-  width: 180px; }
+  width: 180px;
+  -premailer-width: 180px; }
 
 table.five {
-  width: 230px; }
+  width: 230px;
+  -premailer-width: 230px; }
 
 table.six {
-  width: 290px; }
+  width: 290px;
+  -premailer-width: 290px; }
 
 table.seven {
-  width: 330px; }
+  width: 330px;
+  -premailer-width: 330px; }
 
 table.eight {
-  width: 380px; }
+  width: 380px;
+  -premailer-width: 380px; }
 
 table.nine {
-  width: 430px; }
+  width: 430px;
+  -premailer-width: 430px; }
 
 table.ten {
-  width: 480px; }
+  width: 480px;
+  -premailer-width: 480px; }
 
 table.eleven {
-  width: 530px; }
+  width: 530px;
+  -premailer-width: 530px; }
 
 table.twelve {
-  width: 580px; }
+  width: 580px;
+  -premailer-width: 580px; }
 
 table.one center {
   min-width: 30px; }
@@ -290,7 +311,8 @@ td.offset-by-eleven {
 td.expander {
   visibility: hidden;
   width: 0px;
-  padding: 0 !important; }
+  padding: 0 !important;
+  -premailer-width: 0; }
 
 table.columns .text-pad,
 table.column .text-pad {
@@ -319,25 +341,32 @@ table.column .text-pad-right {
   padding: 10px; }
 
 .two-up td {
-  width: 270px; }
+  width: 270px;
+  -premailer-width: 270px; }
 
 .three-up td {
-  width: 173px; }
+  width: 173px;
+  -premailer-width: 173px; }
 
 .four-up td {
-  width: 125px; }
+  width: 125px;
+  -premailer-width: 125px; }
 
 .five-up td {
-  width: 96px; }
+  width: 96px;
+  -premailer-width: 96px; }
 
 .six-up td {
-  width: 76px; }
+  width: 76px;
+  -premailer-width: 76px; }
 
 .seven-up td {
-  width: 62px; }
+  width: 62px;
+  -premailer-width: 62px; }
 
 .eight-up td {
-  width: 52px; }
+  width: 52px;
+  -premailer-width: 52px; }
 
 /* Alignment & Visibility Classes */
 table.center, td.center {
@@ -366,7 +395,7 @@ img.center {
 
 /* Panels */
 .panel {
-  background: #f2f2f2;
+  background: #EFEFEF;
   border: 1px solid #d9d9d9;
   padding: 10px !important; }
 
@@ -377,28 +406,38 @@ img.center {
   padding-bottom: 0; }
 
 body, table.body, h1, h2, h3, h4, h5, h6, p {
-  color: #e5e5e5;
+  color: #525352;
   font-family: "Arial", sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
   text-align: left;
-  line-height: 1.3; }
+  line-height: 1.5; }
 
 h1, h2, h3, h4, h5, h6 {
-  word-break: normal; }
+  word-break: normal;
+  font-weight: bold; }
 
 /* Outlook First */
 body.outlook p {
   display: inline !important; }
 
-body, .body {
-  background-color: #FFFFFF !important; }
+/*==================================
+=            Layout CSS            =
+==================================*/
+.text-small {
+  font-size: 10px; }
 
-.bolded {
-  font-weight: bold; }
+.masthead {
+  background-color: #236093;
+  padding: 5px 0 0 0; }
 
-/*  Media Queries */
+.link {
+  color: #236093; }
+
+/*=====================================
+=            Media Queries            =
+=====================================*/
 @media only screen and (max-width: 600px) {
   table[class="body"] img {
     width: auto !important;
@@ -478,11 +517,10 @@ body, .body {
   table[class="body"] table.columns td.expander {
     width: 1px !important; }
   table[class="body"] .right-text-pad,
-  table[class="body"] .text-pad-right {
-    padding-left: 10px !important; }
+  table[class="body"] .text-pad-right,
   table[class="body"] .left-text-pad,
   table[class="body"] .text-pad-left {
-    padding-right: 10px !important; }
+    padding: 0; }
   table[class="body"] .hide-for-small,
   table[class="body"] .show-for-desktop {
     display: none !important; }
@@ -493,4 +531,8 @@ body, .body {
     text-align: center !important;
     margin: 0 auto; }
     .mobile-center h1, .mobile-center h2, .mobile-center h3, .mobile-center h4, .mobile-center h5, .mobile-center h6, .mobile-center p, .mobile-center span, .mobile-center a {
-      text-align: center !important; } }
+      text-align: center !important; }
+  .mobile-pad-right {
+    padding-right: 5px !important; }
+  .mobile-pad-left {
+    padding-left: 5px !important; } }

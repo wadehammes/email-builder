@@ -1,3 +1,15 @@
-body, .body {
-  background-color: #FFFFFF !important;
+/*==================================
+=            Layout CSS            =
+==================================*/
+.text-small {
+  font-size: 10px;
+}
+
+.masthead {
+  background-color: $blue;
+  padding: 5px 0 0 0;
+}
+
+.link {
+  color: $blue;
 }
